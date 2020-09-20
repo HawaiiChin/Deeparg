@@ -1,9 +1,8 @@
 *create a virtual environment with conda
 conda create -n deeparg_env python=2.7.18
-source activate deeparg_env
+conda activate deeparg_env
 conda install -c bioconda diamond==0.9.24
-*activate
-pip install deeparg==1.0.1
+
 deeparg download_data -o /path/to/local/directory/
 conda activate deeparg_env
 *quit the deeparg env
